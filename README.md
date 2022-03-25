@@ -1,4 +1,4 @@
-# Package L04
+# Code from labs
 This is my first package
 
 ## Install
