@@ -75,7 +75,7 @@ loading
 			</tr>
 			{#each contacts as contact}
 				<tr>
-					<td>{contact.name}</td>
+					<td><a href="#/contact/{contact.name}">{contact.name}</a></td>
 					<td>{contact.email}</td>
 					<td>{contact.phone}</td>
 				</tr>
