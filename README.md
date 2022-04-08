@@ -1,5 +1,5 @@
 # Code from labs
-This is package l07
+This is the final code from lab l08
 
 ## Install
 ```
