@@ -1,10 +1,19 @@
 <script>
+	import Router from "svelte-spa-router"
 	import ContactsTable from './ContactsTable.svelte';
-	export let name;
+	import Home from './Home.svelte';
+	import EditContact from "./EditContact.svelte";
+
+	const routes ={
+
+		"/": Home,
+		"/contactList": ContactsTable,
+		"/contact/:contactName": EditContact
+	};
 
 </script>
 
 <main>
-	<h1>APP</h1>
-	<ContactsTable />
+	<h1>Contact Manager</h1>
+	<Router {routes} />
 </main>
