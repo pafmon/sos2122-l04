@@ -1,7 +1,13 @@
 const express = require("express");
+const bodyParser = require("body-parser");
+const back = require("./src/back");
 
 const app = express();
 const port = process.env.PORT || 8080;
+
+back(app);
+
+app.use(bodyParser.json());
 
 app.use("/",express.static("./public"));
 

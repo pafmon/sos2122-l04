@@ -1,7 +1,7 @@
 {
-  "name": "l08",
+  "name": "l09",
   "version": "1.0.0",
-  "description": "code from L08 lab",
+  "description": "code from L09 lab",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
@@ -12,7 +12,9 @@
   "author": "pablofm",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3"
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "nedb": "^1.8.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
