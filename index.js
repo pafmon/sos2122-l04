@@ -19,5 +19,5 @@ app.get("/api/v1/contacts", (req,res)=>{
 });
 
 app.listen(port, () => {
-    console.log(`Server ready at port ${port}`);
+    console.log(`Server ready at port ${port}!`);
 });
