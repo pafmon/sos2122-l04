@@ -3,12 +3,14 @@
 	import ContactsTable from './ContactsTable.svelte';
 	import Home from './Home.svelte';
 	import EditContact from "./EditContact.svelte";
+	import MyGraph from "./MyGraph.svelte";
 
 	const routes ={
 
 		"/": Home,
 		"/contactList": ContactsTable,
-		"/contact/:contactName": EditContact
+		"/contact/:contactName": EditContact,
+		"/graph": MyGraph
 	};
 
 </script>
