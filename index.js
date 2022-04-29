@@ -13,5 +13,5 @@ back(app);
 app.use("/",express.static("./public"));
 
 app.listen(port, () => {
-    console.log(`Server ready at port ${port}!`);
+    console.log(`Server ready at port ${port}`);
 });
