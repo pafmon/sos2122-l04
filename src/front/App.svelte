@@ -17,3 +17,9 @@
 	<h1>Contact Manager</h1>
 	<Router {routes} />
 </main>
+
+<style>
+	h1 {
+		color : red;
+	}
+</style>
