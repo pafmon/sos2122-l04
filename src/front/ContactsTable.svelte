@@ -15,7 +15,7 @@
 
     async function getContacts(){
         console.log("Fetching contacts....");
-        const res = await fetch("/api/v1/contacts"); 
+        const res = await fetch("https://sos2122-pfm.herokuapp.com/api/v1/contacts"); 
         if(res.ok){
             const data = await res.json();
             contacts = data;
