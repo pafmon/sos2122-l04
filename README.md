@@ -1,5 +1,5 @@
 # Code from labs
-This is the intial code from lab l11
+This is the final code from lab l11
 
 ## Install
 ```

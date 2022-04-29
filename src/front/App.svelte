@@ -20,6 +20,6 @@
 
 <style>
 	h1 {
-		color : red;
+		color : blue;
 	}
 </style>
