@@ -42,8 +42,10 @@ const puppeteer = require('puppeteer');
 
   try{
     
-    (await page.$$('body > main > main > table > tbody > tr:nth-child(1) > td:nth-child(1) > input')).value = "XXXXX";
-    await page.click('body > main > main > table > tbody > tr:nth-child(1) > td:nth-child(4) > button');
+    (await page.$$('#name')).value = "XXXXX";
+    (await page.$$('#email')).value = "XXXXX";
+    (await page.$$('#phone')).value = "XXXXX";
+    await page.click('#addContact');
     await page.waitForTimeout(2000);
 
   }catch(e){

@@ -10,3 +10,4 @@ jobs:
       - run: npm install
       - run: npm start &
       - run: npm test
+      - run: node tests/e2e/01.js
