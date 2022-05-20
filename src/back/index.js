@@ -111,7 +111,7 @@ module.exports = function (app) {
         console.log("New POST request over /contacts");
         var contact = req.body;
         console.log("Contact to be inserted: " + JSON.stringify(req.body, null, 2));
-        db.insert(contact);
+        //db.insert(contact);
         console.log("done");
         res.sendStatus(201);
     });

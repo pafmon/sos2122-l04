@@ -1,4 +1,4 @@
 <main>
     This is the contact app.
-    <a href="/#/contactList">Contact List</a>
+    <a id="contactTableLink" href="/#/contactList">Contact List</a>
 </main>
